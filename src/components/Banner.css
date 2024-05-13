@@ -1,0 +1,58 @@
+header {
+    background-color: rgba(40, 53, 79, 0.8); 
+    color: #a8adba;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 20px; 
+}
+
+.logo {
+    height: 60px; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-around; 
+    max-width: 960px;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    text-decoration: underline;
+    color: cyan;
+}
+
+.search-container {
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.search-bar {
+    margin-top: 50px; 
+    margin-right: 10px;
+    
+    padding: 10px;
+}

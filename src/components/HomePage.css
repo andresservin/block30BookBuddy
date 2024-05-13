@@ -1,0 +1,62 @@
+.search-bar {
+    border: 1px solid black; 
+    padding: 8px 12px;
+    margin-right: 10px; 
+    font-size: 16px; 
+    background-color: white; 
+    outline: none; 
+}
+
+.book-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.book-card {
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.book-image {
+    width: 100%;
+    height: auto;
+}
+
+.details-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.details-button:hover {
+    background-color: #0056b3;
+}
+
+.search-login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 90px; 
+    background-color: #a29999; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    
+}
+
+.search-bar {
+    flex-grow: 1;
+}
+
+.login-info {
+    margin-left: 20px; 
+}
